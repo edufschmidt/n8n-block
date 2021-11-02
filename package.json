@@ -1,0 +1,29 @@
+{
+  "name": "balenablock-template",
+  "version": "0.0.1",
+  "description": "Template for building/testing/publishing balenablocks",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "node scripts/swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balena-io-playground/balenablock-template.git"
+  },
+  "keywords": [
+    "balenablock"
+  ],
+  "author": "Alex Bucknall",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/balena-io-playground/balenablock-template/issues"
+  },
+  "homepage": "https://github.com/balena-io-playground/balenablock-template#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.6",
+    "swagger-autogen": "^2.6.3"
+  }
+}

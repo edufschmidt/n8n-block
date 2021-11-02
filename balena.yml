@@ -1,0 +1,19 @@
+name: template
+description: >-
+  Template block enabling you to get started building balenablocks for your projects and fleets.
+fleetcta: Template balenablock
+version: 0.0.1
+type: sw.application
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/balenablocks/template'
+  logo:
+    type: blob.asset
+    data:
+      url: 'https://raw.githubusercontent.com/balenablocks/template/main/docs/images/icon.png'
+data:
+  defaultDeviceType: raspberrypi3
+  supportedDeviceTypes:
+    - raspberrypi3
