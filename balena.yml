@@ -1,19 +1,20 @@
-name: template
+name: n8n-block
 description: >-
-  Template block enabling you to get started building balenablocks for your projects and fleets.
-fleetcta: Template balenablock
-version: 0.0.1
+  A block that brings n8n to balena devices.
+fleetcta: n8n
+version: 0.1.0
 type: sw.application
 assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/balenablocks/template'
+      url: 'https://github.com/edufschmidt/n8n-block'
   logo:
     type: blob.asset
     data:
-      url: 'https://raw.githubusercontent.com/balenablocks/template/main/docs/images/icon.png'
+      url: 'https://raw.githubusercontent.com/edufschmidt/n8n-block/main/docs/images/icon.png'
 data:
-  defaultDeviceType: raspberrypi3
+  defaultDeviceType: raspberrypi3-64
   supportedDeviceTypes:
-    - raspberrypi3
+    - raspberrypi3-64
+    - raspberrypi4-64

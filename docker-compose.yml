@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  n8n:
+    build: ./n8n
+    restart: always
+    privileged: true
+    ports:
+      - 80:5678
