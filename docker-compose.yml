@@ -1,9 +1,14 @@
 version: '2'
 
+volumes:
+  n8n-data:
+
 services:
   n8n:
     build: ./n8n
     restart: always
     privileged: true
+    volumes:
+      - "n8n-data:/home/root/.n8n"
     ports:
       - 80:5678
